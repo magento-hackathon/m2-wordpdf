@@ -3,7 +3,7 @@
  * Copyright © 2016 FireGento e.V. - All rights reserved.
  * See LICENSE.md bundled with this module for license details.
  */
-namespace FireGento\Pdf\Plugin\Invoice;
+namespace MagentoHackathon\WordPdf\Plugin\Invoice;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\ObjectManagerInterface;
