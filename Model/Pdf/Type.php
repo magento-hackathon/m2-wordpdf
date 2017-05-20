@@ -1,6 +1,6 @@
 <?php
 
-namespace FireGento\Pdf\Model\Pdf;
+namespace MagentoHackathon\WordPdf\Model\Pdf;
 
 class Type
 {

@@ -4,8 +4,8 @@
  * See LICENSE.md bundled with this module for license details.
  */
 namespace MagentoHackathon\WordPdf\Model\System\Config\Source\Invoice;
-use FireGento\Pdf\Model\Config\Reader;
-use FireGento\Pdf\Model\Pdf\Type;
+use MagentoHackathon\WordPdf\Model\Config\Reader;
+use MagentoHackathon\WordPdf\Model\Pdf\Type;
 use Magento\Framework\Option\ArrayInterface;
 
 class Engine implements ArrayInterface
