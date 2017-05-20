@@ -9,7 +9,7 @@
     <engines>
         <engine type="invoice">
             <!-- TODO add possibility to translate the label -->
-            <item id="firegento_pdf_standard" type="FireGento\Pdf\Model\Engine\Invoice\Standard" label="Standard FireGento"/>
+            <item id="firegento_pdf_standard" type="FireGento\Pdf\Model\Engine\Invoice\Standard" label="WordPdf"/>
         </engine>
     </engines>
 </config>

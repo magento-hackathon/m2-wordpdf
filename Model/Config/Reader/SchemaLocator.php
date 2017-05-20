@@ -20,7 +20,7 @@ class SchemaLocator implements SchemaLocatorInterface
      */
     public function __construct(Reader $moduleReader)
     {
-        $dir           = $moduleReader->getModuleDir(Dir::MODULE_ETC_DIR, 'FireGento_Pdf');
+        $dir           = $moduleReader->getModuleDir(Dir::MODULE_ETC_DIR, 'MagentoHackathon_WordPdf');
         $this->_schema = $dir . '/firegento_pdf.xsd';
     }
 
