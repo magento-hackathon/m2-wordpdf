@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 FireGento e.V. - All rights reserved.
+ * See LICENSE.md bundled with this module for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Sales\Model\Order\Pdf\Invoice">
+        <plugin name="firegentoPdfChangeEngine" type="FireGento\Pdf\Plugin\Invoice\AroundGetPdfPlugin" sortOrder="1"/>
+    </type>
+    <type name="FireGento\Pdf\Model\Config\Reader" shared="true">
+        <arguments>
+            <argument name="fileName" xsi:type="string">firegento_pdf.xml</argument>
+            <argument name="converter" xsi:type="object">FireGento\Pdf\Model\Config\Reader\Converter</argument>
+            <argument name="schemaLocator" xsi:type="object">FireGento\Pdf\Model\Config\Reader\SchemaLocator</argument>
+        </arguments>
+    </type>
+</config>
