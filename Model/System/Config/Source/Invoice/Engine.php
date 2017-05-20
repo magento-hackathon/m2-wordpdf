@@ -3,8 +3,7 @@
  * Copyright © 2016 FireGento e.V. - All rights reserved.
  * See LICENSE.md bundled with this module for license details.
  */
-namespace FireGento\Pdf\Model\System\Config\Source\Invoice;
-
+namespace MagentoHackathon\WordPdf\Model\System\Config\Source\Invoice;
 use FireGento\Pdf\Model\Config\Reader;
 use FireGento\Pdf\Model\Pdf\Type;
 use Magento\Framework\Option\ArrayInterface;
