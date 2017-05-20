@@ -9,7 +9,6 @@
         }
     ],
     "type": "magento2-module",
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "files": [
