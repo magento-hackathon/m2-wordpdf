@@ -1,1 +1,1 @@
-# m2-wordpdf
+# WordPdf
